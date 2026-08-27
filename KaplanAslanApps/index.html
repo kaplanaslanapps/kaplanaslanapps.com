@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kaplan Aslan Apps</title>
+
+    <meta name="description"
+          content="Kaplan Aslan Apps - Android uygulamaları ve oyunlar geliştiriyoruz.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: Arial, sans-serif;
+            color: white;
+
+            background:
+                radial-gradient(
+                    circle at top,
+                    #3b2a10,
+                    #111827 45%,
+                    #050816
+                );
+        }
+
+        .container {
+            width: 90%;
+            max-width: 750px;
+
+            text-align: center;
+
+            padding: 60px 30px;
+
+            background: rgba(255,255,255,0.07);
+
+            border: 1px solid rgba(255,255,255,0.12);
+
+            border-radius: 25px;
+
+            box-shadow:
+                0 25px 70px rgba(0,0,0,0.4);
+
+            animation: ortayaCik 1s ease;
+        }
+
+        .logo {
+            font-size: 70px;
+
+            margin-bottom: 20px;
+
+            animation: yuz 3s ease-in-out infinite;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .slogan {
+            font-size: 20px;
+            color: #d1d5db;
+
+            margin-bottom: 35px;
+        }
+
+        .yakinda {
+            display: inline-block;
+
+            padding: 13px 25px;
+
+            border-radius: 50px;
+
+            background: #fbbf24;
+            color: #111827;
+
+            font-weight: bold;
+
+            margin-bottom: 25px;
+        }
+
+        .aciklama {
+            max-width: 550px;
+
+            margin: auto;
+
+            line-height: 1.7;
+
+            color: #cbd5e1;
+
+            margin-bottom: 30px;
+        }
+
+        .mail {
+            color: #fbbf24;
+
+            text-decoration: none;
+
+            font-weight: bold;
+        }
+
+        .mail:hover {
+            opacity: 0.7;
+        }
+
+        footer {
+            margin-top: 40px;
+
+            color: #94a3b8;
+
+            font-size: 14px;
+        }
+
+        @keyframes ortayaCik {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes yuz {
+            0%, 100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+        @media (max-width: 600px) {
+
+            h1 {
+                font-size: 34px;
+            }
+
+            .slogan {
+                font-size: 17px;
+            }
+
+            .container {
+                padding: 45px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="logo">
+            🦁
+        </div>
+
+        <h1>
+            Kaplan Aslan Apps
+        </h1>
+
+        <p class="slogan">
+            Android uygulamaları ve oyunlar geliştiriyoruz.
+        </p>
+
+        <div class="yakinda">
+            🚀 Uygulamamız Yakında!
+        </div>
+
+        <p class="aciklama">
+            Yeni uygulamamız üzerinde çalışıyoruz.
+            Eğlenceli, kullanışlı ve güzel deneyimler
+            sunmak için hazırlıklarımız devam ediyor.
+            Çok yakında sizlerle!
+        </p>
+
+        <a
+            class="mail"
+            href="mailto:kaplanaslanapps@gmail.com">
+
+            ✉️ kaplanaslanapps@gmail.com
+
+        </a>
+
+        <footer>
+            © 2026 Kaplan Aslan Apps
+        </footer>
+
+    </div>
+
+</body>
+</html>
